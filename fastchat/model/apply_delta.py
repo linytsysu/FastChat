@@ -16,7 +16,7 @@ from huggingface_hub import snapshot_download
 import torch
 from torch import nn
 from tqdm import tqdm
-from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig, LlamaTokenizer
 
 
 GB = 1 << 30
